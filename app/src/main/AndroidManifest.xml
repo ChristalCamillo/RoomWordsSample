@@ -4,6 +4,7 @@
     package="com.example.android.roomwordssample">
 
     <application
+        android:name="com.example.roomwordssample.domain.repository.WordsApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -11,10 +12,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.RoomWordsSample"
+        android:theme="@style/AppTheme"
         tools:targetApi="31">
         <activity
-            android:name="com.example.roomwordssample.ui.MainActivity"
+            android:name="com.example.roomwordssample.ui.view.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

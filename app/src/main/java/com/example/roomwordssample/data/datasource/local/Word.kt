@@ -1,4 +1,4 @@
-package com.example.roomwordssample.data
+package com.example.roomwordssample.data.datasource.local
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
